@@ -57,7 +57,7 @@ const skills = [
 		icon: <FaReact size="25px" color="white" />,
 		cssName: "react"
 	},
-	
+
 	{
 		name: 'Responsive Design',
 		icon: <FaMobileAlt size="25px" color="white" />,
@@ -73,7 +73,7 @@ const skills = [
 		icon: <BiLogoJava size="25px" color="white" />,
 		cssName: "python"
 	},
-	
+
 	{
 		name: 'Problem Solving',
 		icon: <BsPuzzle size="25px" color="white" />,
@@ -82,7 +82,7 @@ const skills = [
 ];
 
 const projects = [
-	
+
 	{
 		name: `CarRentals`,
 		link: 'https://tranquil-belekoy-87861c.netlify.app/',
@@ -148,7 +148,7 @@ function App() {
 			<div className={style.nav}>
 				<a className={style.logo} >
 					{/* <FaReact color='var(--primary-main)' size='50px' /> */}
-                     <img src={mainLogo} alt="Logo" className={style.logoImage} />
+					<img src={mainLogo} alt="Logo" className={style.logoImage} />
 					{/* <h5>ibrahim hiarea</h5> */}
 				</a>
 				<ul>
@@ -179,8 +179,8 @@ function App() {
 			{/* Home */}
 			<div id='Home' className={style.home}>
 				<div className={style["home-content"]}>
-					<h1>HEY, I'M Bhargavi Nareddy</h1>
-					<p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+					<h1>HEY,  I'M Ashwin Reddy Gangula</h1>
+					<p>A Python Software Engineer building robust and scalable backend solutions and applications that drive the success of products.</p>
 					<a
 						href={cv}
 						download="cv-PDF-document"
@@ -225,8 +225,8 @@ function App() {
 						<div className={style["about-info"]}>
 							<h3>Get to know me!</h3>
 							<p>
-								I'm a <span>Frontend Web Developer</span> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <span>Projects</span> section. <br /> <br />
-								I also like sharing content related to the stuff that I have learned over the years in <span>Web Development</span> so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <a href="https://github.com/bhargavi374" target="_blank">Github</a> where I post useful content related to Web Development and Programming. <br /> <br />
+								I'm a <span>Python Software Engineer</span> building robust and scalable backend solutions and applications that drive the success of products. Check out some of my work in the <span>Projects</span> section. <br /> <br />
+								I also like sharing content related to the stuff that I have learned over the years in <span>Python and Backend Development</span> so it can help other people in the Dev Community. Feel free to Connect or Follow me on my <a href="https://github.com/bhargavi374" target="_blank">Github</a> where I post useful content related to Python Development and Programming. <br /> <br />
 								I'm open to <span>Job</span> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <span>contact</span> me.
 							</p>
 						</div>
@@ -353,8 +353,8 @@ function App() {
 				<div className={style.container}>
 					<div className={style["footer-info"]}>
 						<div>
-							<h3>Bhargavi Nareddy</h3>
-							<p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+							<h3>Ashwin Reddy Gangula</h3>
+							<p>A Python Software Engineer building robust and scalable backend solutions and applications that drive the success of products.</p>
 						</div>
 						<div className={style.social}>
 							<h3>Social</h3>
@@ -375,7 +375,7 @@ function App() {
 						</div>
 					</div>
 					<div className={style["copy-right"]}>
-						© Copyright 2025. Made by <span>Bhargavi Nareddy</span>
+						© Copyright 2025. Made by <span>Ashwin Reddy Gangula</span>
 					</div>
 				</div>
 			</div>
